@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: rgb(158, 220, 248);
+  padding: 20px;
+}
+
+header .menu{
+  border: 2.5px dotted black;
+  padding: 10px;
+  background-color: orange;
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .menu ul{
+  display: flex;
+  list-style: none;
+}
+
+header .menu ul li{
+  margin-right: 8px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.jumbotron{
+  background-color: darkblue;
+  height: 500px;
+  width: 100%;
+}
+
+.jumbotron .sotto-menu{
+  border: 2.5px dotted black;
+  background-color: rgb(255, 0, 234);
+  display: flex;
+
+  height: 70%;
+  width: 40%;
+  margin: 0 auto;
+} 
