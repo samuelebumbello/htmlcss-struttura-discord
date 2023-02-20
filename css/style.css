@@ -6,15 +6,20 @@
 
 header{
   background-color: rgb(158, 220, 248);
-  padding: 20px;
+  display: flex;
+  flex-flow: column;
 }
 
+
+/* HEADER */
 header .menu{
   border: 2.5px dotted black;
   padding: 10px;
   background-color: orange;
   margin: 0 auto;
-  width: 50%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 70%;
   display: flex;
   justify-content: space-between;
 }
@@ -32,18 +37,72 @@ a{
   text-decoration: none;
 }
 
-.jumbotron{
+header .jumbotron{
   background-color: darkblue;
   height: 500px;
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 
-.jumbotron .sotto-menu{
+header .jumbotron .sotto-menu{
   border: 2.5px dotted black;
-  background-color: rgb(255, 0, 234);
-  display: flex;
-
-  height: 70%;
-  width: 40%;
+  background-color: #EE82EE;
+  height: 80%;
+  width: 50%;
   margin: 0 auto;
-} 
+}
+
+main{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* MAIN */
+.prima-box{
+  margin: 0 auto;
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 540px;
+}
+
+.seconda-box{
+  margin: 0 auto;
+  background-color:#D3D3D3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 540px;
+}
+
+.prima-box .blue{
+  border: 2.5px dotted black;
+  background-color: #1E90FF;
+  height: 80%;
+  width: 45%;
+}
+
+.prima-box .pink{
+  border: 2.5px dotted black;
+  display: flex;
+  background-color: #FFC0CB;
+  height: 80%;
+  width: 30%;
+}
+
+.seconda-box .pink{
+  border: 2.5px dotted black;
+  display: flex;
+  background-color: #FFC0CB;
+  height: 80%;
+  width: 45%;
+}
+
+.seconda-box .blue{
+  border: 2.5px dotted black;
+  background-color: #1E90FF;
+  height: 80%;
+  width: 30%;
+}
