@@ -12,6 +12,7 @@ header{
 
 
 /* HEADER */
+
 header .menu{
   border: 4px dotted black;
   padding: 10px;
@@ -54,11 +55,8 @@ header .jumbotron .sotto-menu{
   margin: 0 auto;
 }
 
-main{
-
-}
-
 /* MAIN */
+
 .prima-box{
   margin: 0 auto;
   background-color:white;
@@ -122,4 +120,55 @@ main{
   background-color: #228B22;
   height: 80%;
   width: 70%;
+}
+
+/* FOOTER */
+
+footer{
+  background-color:#23272A;
+}
+
+.quarta-box{
+width: 70%;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1.5rem 0;
+}
+
+.quarta-box > div{
+  height: 650px;
+}
+
+.quarta-box .salmon{
+  border: 4px dotted black;
+  background-color: #F08080;
+  width: 30%;
+}
+
+.quarta-box .cyan{
+  border: 4px dotted black;
+  background-color: #20B2AA;
+  width: 20%;
+}
+
+.quinta-box{
+  margin: 0 auto;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+  width: 50%;
+}
+
+.quinta-box .quinta1{
+ background-color: #e9a3c8;
+ padding: 10px;
+}
+
+.quinta-box .quinta2{
+ background-color: #e9a3c8;
+ padding: 10px;
 }
